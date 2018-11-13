@@ -1,12 +1,30 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Daily"
+    url: /categories/daily/
+  - title: "Creative"
+    url: /categories/creative/
+  - title: "Development"
+    url: /categories/development/
+  - title: "Portfolio"
+    url: /categories/portfolio/
+
+daily:
+  - title: Daily Life
+    children:
+      - title: "Food"
+        url: /tags/food/
+
+development:
+  - title: Development
+    children:
+      - title: "Android"
+        url: /tags/android/
+
+creative:
+  - title: Draw
+    children:
+      - title: "초코롤의 코딩일기"
+        url: /coding_diary/
+      - title: "일러스트"
+        url: /tags/illustration/
