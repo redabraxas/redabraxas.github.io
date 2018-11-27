@@ -11,20 +11,25 @@ main:
 
 daily:
   - title: Daily Life
+    url: /categories/daily/
     children:
       - title: "Food"
         url: /tags/food/
 
-development:
-  - title: Development
-    children:
-      - title: "Android"
-        url: /tags/android/
-
 creative:
   - title: Draw
+    url: /categories/creative/
     children:
       - title: "초코롤의 코딩일기"
         url: /coding_diary/
       - title: "일러스트"
         url: /tags/illustration/
+
+development:
+  - title: Development
+    url: /categories/development/
+    children:
+      - title: "Android"
+        url: /tags/android/
+      - title: "Tool"
+        url: /tags/tool/
